@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>2ª Jornada PB · Dra. Priscilla Braga</title>
+<meta name="description" content="Da estética básica aos injetáveis. 5 palestras e demonstrações práticas com a Dra. Priscilla Braga. 09/11/2026, das 09h às 16h, no Monza Palace Hotel.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="2ª Jornada PB · Da estética básica aos injetáveis">
+<meta property="og:description" content="5 palestras e demonstrações práticas com a Dra. Priscilla Braga. 09/11, Monza Palace Hotel. Vagas limitadas.">
+<meta property="og:image" content="https://jornadapb.drapriscillabraga.com.br/og.jpg">
+<meta property="og:url" content="https://jornadapb.drapriscillabraga.com.br/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#F2E8DB">
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;1,6..96,400;1,6..96,500&family=Lora:wght@400;500;600&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout: hero único (título + retrato pequeno em arco), seções de texto legível, faixa escura de inscrição, quem é / dúvidas */
+:root{
+  --bg:#F2E8DB;
+  --bg-soft:#EADFCD;
+  --ink:#38132A;
+  --ink-soft:#6A5262;
+  --gold:#8A6330;
+  --gold-line:#C4A474;
+  --band-bg:#38132A;
+  --band-fg:#F6EEDF;
+  --band-soft:#D0BFCD;
+  --cta-from:#E6B94F;
+  --cta-to:#C98F22;
+  --cta-fg:#2B1A2A;
+  --wa:#1E8A52;
+  --wa-fg:#FFFFFF;
+  --ok:#2F7D55;
+  --no:#9A4A43;
+  --logo-c:#38132A;
+  --f-display:"Bodoni Moda","Didot",Georgia,serif;
+  --f-head:"Lora",Georgia,serif;
+  --f-body:"Source Sans 3","Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#1E1018;--bg-soft:#291A23;--ink:#F3E9DA;--ink-soft:#C0AEBD;--gold:#D9B473;--gold-line:#7C6140;
+    --band-bg:#2E1522;--band-fg:#F6EEDF;--band-soft:#C9B6C6;
+    --ok:#6FCB9A;--no:#E39A92;--wa:#2BA568;--logo-c:#E3C98F;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1E1018;--bg-soft:#291A23;--ink:#F3E9DA;--ink-soft:#C0AEBD;--gold:#D9B473;--gold-line:#7C6140;
+  --band-bg:#2E1522;--band-fg:#F6EEDF;--band-soft:#C9B6C6;
+  --ok:#6FCB9A;--no:#E39A92;--wa:#2BA568;--logo-c:#E3C98F;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+:root{padding-top:env(safe-area-inset-top,0px)}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:18px;line-height:1.6;font-weight:400;margin:0}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+a{color:inherit}
+.eyebrow{font-size:13px;letter-spacing:.2em;text-transform:uppercase;font-weight:600;color:var(--gold)}
+h1,h2,h3{margin:0;text-wrap:balance}
+h2{font-family:var(--f-head);font-weight:500;font-size:clamp(28px,4vw,42px);line-height:1.2}
+.rule{display:block;width:72px;height:1px;background:var(--gold);border:0;margin:0}
+
+/* botões */
+.btn{display:inline-block;text-decoration:none;font-family:var(--f-body);font-size:15px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;padding:18px 36px;text-align:center;border:0;cursor:pointer;transition:transform .2s ease,box-shadow .2s ease}
+.btn:hover{transform:translateY(-2px)}
+.btn:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.btn.cta{background:linear-gradient(180deg,var(--cta-from),var(--cta-to));color:var(--cta-fg);box-shadow:0 8px 22px -8px rgba(201,143,34,.75),inset 0 1px 0 rgba(255,255,255,.45)}
+.btn.cta:hover{box-shadow:0 12px 26px -8px rgba(201,143,34,.9),inset 0 1px 0 rgba(255,255,255,.45)}
+.btn.wa{background:var(--wa);color:var(--wa-fg);box-shadow:0 8px 20px -10px rgba(30,138,82,.9)}
+
+/* topo */
+.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:22px;padding-bottom:10px}
+.brand{display:flex;align-items:center;gap:14px;text-decoration:none}
+.logo{display:block;flex:none;background:var(--logo-c);aspect-ratio:410/520;-webkit-mask:url(logo.png) center/contain no-repeat;mask:url(logo.png) center/contain no-repeat}
+.brand .logo{width:46px}
+.brand span{font-size:13px;letter-spacing:.22em;text-transform:uppercase;font-weight:600;color:var(--gold)}
+.top .btn{padding:12px 22px;font-size:13px}
+
+/* hero: título + retrato recortado, como no folder */
+.hero{position:relative;display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);grid-template-areas:"head portrait" "rest portrait";column-gap:0;align-items:end;padding-top:clamp(8px,2vw,24px);padding-bottom:clamp(48px,7vw,88px)}
+.lines{position:absolute;right:0;top:0;width:min(62%,640px);height:auto;pointer-events:none;z-index:0}
+.lines path{fill:none;stroke-width:1.2}
+.h-head{grid-area:head;position:relative;z-index:2;min-width:0;align-self:end}
+.h-rest{grid-area:rest;position:relative;z-index:2;min-width:0;align-self:start}
+.hero h1{font-family:var(--f-display);font-weight:400;font-size:clamp(54px,9vw,112px);line-height:.96;letter-spacing:-.01em;margin:0;color:var(--ink)}
+.hero h1 sup{font-size:.42em;vertical-align:top;position:relative;top:.16em;margin-right:.04em}
+.hero h1 .pb{display:block;font-style:italic;font-weight:500;font-size:1.3em;line-height:.95;color:var(--gold);background:linear-gradient(100deg,#8C6532 0%,#D9B97C 48%,#8C6532 100%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .hero h1 .pb{background:linear-gradient(100deg,#B98A45 0%,#EBCB8C 48%,#B98A45 100%);-webkit-background-clip:text;background-clip:text}}
+:root[data-theme="dark"] .hero h1 .pb{background:linear-gradient(100deg,#B98A45 0%,#EBCB8C 48%,#B98A45 100%);-webkit-background-clip:text;background-clip:text}
+.hero .sub{margin:22px 0 0;font-size:clamp(15px,1.7vw,19px);letter-spacing:.24em;text-transform:uppercase;font-weight:600;line-height:1.8}
+.hero .rule{margin-top:20px}
+.facts{display:grid;grid-template-columns:repeat(3,auto);justify-content:start;margin-top:30px}
+.fact{display:flex;flex-direction:column;gap:8px;padding:0 clamp(14px,2vw,26px);border-left:1px solid var(--gold-line)}
+.fact:first-child{padding-left:0;border:0}
+.fact svg{width:28px;height:28px;stroke:var(--gold);fill:none;stroke-width:1.3}
+.fact b{font-family:var(--f-display);font-weight:500;font-size:clamp(17px,1.8vw,21px);line-height:1.25}
+.cta-row{margin-top:32px;display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px}
+.cta-note{font-size:15px;color:var(--ink-soft)}
+.portrait{grid-area:portrait;position:relative;z-index:1;margin-left:-14%;align-self:end;min-width:0}
+.portrait img{display:block;width:100%;height:auto;aspect-ratio:876/1300;-webkit-mask-image:linear-gradient(to bottom,#000 58%,transparent 98%);mask-image:linear-gradient(to bottom,#000 58%,transparent 98%)}
+.tags{position:absolute;top:2%;right:0;z-index:2;text-align:right;font-size:12px;letter-spacing:.3em;text-transform:uppercase;font-weight:600;line-height:1.9;color:var(--gold);padding-top:10px;border-top:0}
+.tags span{display:block}
+
+/* encontro */
+.about{padding-top:clamp(48px,7vw,84px);padding-bottom:clamp(48px,7vw,84px);border-top:1px solid var(--gold-line)}
+.about-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(24px,5vw,72px);align-items:start}
+.about h2{margin-top:12px}
+.about p{margin:0 0 18px;max-width:60ch}
+.incl{display:grid;grid-template-columns:repeat(3,1fr);margin-top:34px;border-top:1px solid var(--gold-line)}
+.incl div{padding:20px 20px 0 0}
+.incl div+div{padding-left:20px;border-left:1px solid var(--gold-line)}
+.incl strong{display:block;font-family:var(--f-head);font-weight:600;font-size:21px;line-height:1.25;color:var(--gold)}
+.incl span{display:block;margin-top:6px;font-size:16px;color:var(--ink-soft)}
+
+/* programação */
+.program{background:var(--bg-soft);padding-top:clamp(48px,7vw,84px);padding-bottom:clamp(48px,7vw,84px)}
+.program header{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px 32px;margin-bottom:30px}
+.program h2{margin-top:10px}
+.program header p{margin:0;font-size:15px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--ink-soft)}
+.talks{list-style:none;margin:0;padding:0;border-top:1px solid var(--gold-line)}
+.talks li{display:grid;grid-template-columns:clamp(54px,9vw,92px) minmax(0,1fr);gap:clamp(12px,3vw,28px);align-items:center;padding:22px 0;border-bottom:1px solid var(--gold-line)}
+.talks .n{font-family:var(--f-display);font-style:italic;font-size:clamp(40px,6vw,60px);line-height:1;color:var(--gold)}
+.talks .k{font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--ink-soft);font-weight:600}
+.talks h3{font-family:var(--f-head);font-weight:500;font-size:clamp(20px,2.6vw,26px);line-height:1.3;margin-top:3px}
+.talks h3 small{display:block;font-family:var(--f-body);font-size:17px;font-weight:400;color:var(--ink-soft);margin-top:5px;line-height:1.45}
+
+/* inscrição */
+.band{background:var(--band-bg);color:var(--band-fg);padding-top:clamp(52px,7vw,92px);padding-bottom:clamp(52px,7vw,92px)}
+.signup{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,6vw,80px);align-items:center}
+.signup h2{margin-top:12px}
+.band .eyebrow{color:var(--cta-from)}
+.signup .lead{margin:16px 0 0;color:var(--band-soft);max-width:44ch}
+.steps{list-style:none;margin:28px 0 0;padding:0;display:grid;gap:14px;counter-reset:s}
+.steps li{display:grid;grid-template-columns:34px 1fr;gap:10px;font-size:18px}
+.steps li::before{counter-increment:s;content:counter(s);font-family:var(--f-display);font-style:italic;font-size:26px;line-height:1.05;color:var(--cta-from)}
+.ticket{border:1px solid rgba(230,185,79,.55);padding:clamp(26px,4vw,42px);text-align:center;position:relative;min-width:0}
+.ticket::before{content:"";position:absolute;inset:7px;border:1px solid rgba(230,185,79,.25);pointer-events:none}
+.ticket>*{position:relative}
+.ticket .lab{font-size:13px;letter-spacing:.24em;text-transform:uppercase;color:var(--cta-from);font-weight:600}
+.price{font-family:var(--f-display);font-size:clamp(56px,8vw,84px);line-height:1;margin:12px 0 6px;font-weight:400}
+.price small{font-size:.38em;vertical-align:top;margin-right:6px;position:relative;top:.32em}
+.ticket .pay{font-size:16px;color:var(--band-soft)}
+.ticket .btn{margin-top:24px;width:100%}
+.ticket .after{margin-top:26px;padding-top:22px;border-top:1px solid rgba(230,185,79,.25);font-size:16px;color:var(--band-soft)}
+.ticket .after .btn{margin-top:12px;padding:15px 20px;font-size:14px}
+.tabs{display:grid;grid-template-columns:1fr 1fr;margin-top:24px;border:1px solid rgba(230,185,79,.45)}
+.tab{font:600 14px/1 var(--f-body);letter-spacing:.16em;text-transform:uppercase;padding:14px 10px;background:transparent;color:var(--band-soft);border:0;cursor:pointer}
+.tab[aria-selected="true"]{background:rgba(230,185,79,.16);color:var(--band-fg)}
+.tab:focus-visible{outline:3px solid var(--cta-from);outline-offset:-3px}
+.pane{margin-top:18px}
+.hint{margin:0;font-size:16px;color:var(--band-soft);line-height:1.5}
+.hint.small{font-size:14px;margin-top:12px}
+.key{margin-top:14px;padding:12px;border:1px dashed rgba(230,185,79,.6);font:400 13px/1.45 ui-monospace,Menlo,monospace;color:var(--band-soft);word-break:break-all;user-select:all;max-height:5.6em;overflow:hidden;text-align:left}
+.or{margin-top:10px;font-size:17px;color:var(--band-fg)}
+.or b{font-weight:600;color:var(--cta-from)}
+.qr{display:none;margin:20px auto 0;width:180px}
+.qr img{display:block;width:180px;height:180px;background:#fff;padding:8px}
+.qr figcaption{margin-top:8px;font-size:13px;color:var(--band-soft)}
+@media (min-width:900px) and (hover:hover){.qr{display:block}}
+.pane .btn{margin-top:14px}
+.after-t{display:block;color:var(--band-fg);font-family:var(--f-head);font-size:20px;font-weight:500;margin-bottom:4px}
+.after.flash{animation:flash 1.6s ease 1}
+@keyframes flash{0%,100%{background:transparent}30%{background:rgba(30,138,82,.25)}}
+@media (prefers-reduced-motion:reduce){.after.flash{animation:none}}
+
+
+/* para quem é */
+.fit{padding-top:clamp(48px,7vw,84px);padding-bottom:clamp(40px,6vw,64px)}
+.fit h2{margin-top:12px;max-width:20ch}
+.fit-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(20px,4vw,48px);margin-top:32px}
+.fit-grid>div{min-width:0;border-top:3px solid var(--ok);padding-top:18px}
+.fit-grid>div.no{border-top-color:var(--no)}
+.fit h3{font-family:var(--f-head);font-weight:600;font-size:21px;line-height:1.3}
+.fit ul{list-style:none;margin:14px 0 0;padding:0;display:grid;gap:12px}
+.fit li{display:grid;grid-template-columns:24px minmax(0,1fr);gap:8px}
+.fit li::before{content:"✓";color:var(--ok);font-weight:700}
+.fit .no li::before{content:"✕";color:var(--no)}
+
+/* dúvidas */
+.faq{padding-top:clamp(24px,4vw,40px);padding-bottom:clamp(48px,7vw,84px)}
+.faq h2{margin:12px 0 26px}
+.faq details{border-top:1px solid var(--gold-line)}
+.faq details:last-of-type{border-bottom:1px solid var(--gold-line)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:20px 0;font-family:var(--f-head);font-weight:500;font-size:20px;line-height:1.35}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-family:var(--f-body);font-size:28px;line-height:1;color:var(--gold);flex:none}
+.faq details[open] summary::after{content:"–"}
+.faq details p{margin:0 0 20px;max-width:62ch;color:var(--ink-soft)}
+.faq .more{margin-top:30px;display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px}
+.faq .more span{font-size:17px}
+
+footer{border-top:1px solid var(--gold-line);padding-top:30px;padding-bottom:30px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:14px 32px;align-items:center;justify-content:space-between;font-size:15px;color:var(--ink-soft)}
+footer .logo{width:36px}
+footer .links{display:flex;flex-wrap:wrap;gap:8px 24px}
+
+.sticky{display:none}
+@media (max-width:760px){
+  body{font-size:17px}
+  .hero{grid-template-columns:minmax(0,1fr);grid-template-areas:"portrait" "head" "rest"}
+  .lines{width:80%}
+  .portrait{margin-left:0;justify-self:end;width:min(86%,360px)}
+  .portrait img{-webkit-mask-image:linear-gradient(to bottom,#000 48%,transparent 96%);mask-image:linear-gradient(to bottom,#000 48%,transparent 96%)}
+  .h-head{margin-top:-24%}
+  .hero h1{font-size:clamp(56px,18vw,80px)}
+  .tags{display:none}
+  .eyebrow{letter-spacing:.14em;font-size:12px}
+  .facts{grid-template-columns:1fr;gap:16px;margin-top:26px}
+  .fact{flex-direction:row;align-items:center;gap:14px;padding:0;border:0}
+  .fact b{font-size:19px}
+  .cta-row .btn{width:100%}
+  .about-grid,.signup,.fit-grid{grid-template-columns:1fr}
+  .incl{grid-template-columns:1fr}
+  .incl div,.incl div+div{padding:16px 0;border-left:0;border-bottom:1px solid var(--gold-line)}
+  .top .btn{display:none}
+  .sticky{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:20;align-items:center;justify-content:space-between;gap:12px;background:var(--band-bg);color:var(--band-fg);padding:12px max(16px,env(safe-area-inset-right,0px)) calc(12px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
+  .sticky span{font-size:13px;letter-spacing:.08em;text-transform:uppercase;line-height:1.4}
+  .sticky span b{display:block;font-weight:600;color:var(--cta-from)}
+  .sticky .btn{padding:13px 20px;font-size:13px;width:auto}
+  footer{padding-bottom:calc(96px + env(safe-area-inset-bottom,0px))}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+</style>
+</head>
+<body>
+
+<header class="wrap top">
+  <a class="brand" href="#topo" aria-label="PB Mentorias">
+    <span class="logo" role="img" aria-label="PB"></span>
+    <span>Dra. Priscilla Braga</span>
+  </a>
+  <a class="btn cta" href="#inscricao">Garantir minha vaga</a>
+</header>
+
+<main id="topo">
+  <section class="wrap hero">
+    <svg class="lines" viewBox="0 0 640 700" aria-hidden="true" preserveAspectRatio="xMaxYMin meet">
+      <path d="M640 0 C560 60 470 40 380 130 C300 215 340 330 250 420" stroke="var(--gold-line)"/>
+      <path d="M520 0 C640 90 600 220 640 300" stroke="var(--ink)" style="opacity:.55"/>
+    </svg>
+    <div class="h-head">
+      <h1>2<sup>a</sup> Jornada<span class="pb">PB</span></h1>
+    </div>
+    <div class="portrait">
+      <div class="tags" aria-hidden="true"><span>Ciência</span><span>Técnica</span><span>Estética</span><span>Resultados</span></div>
+      <img src="foto.webp" alt="Dra. Priscilla Braga">
+    </div>
+    <div class="h-rest">
+      <p class="sub">Da estética básica<br>aos injetáveis.</p>
+      <hr class="rule">
+      <div class="facts">
+        <div class="fact">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="1.5"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></svg>
+          <b>09 de novembro<br>de 2026</b>
+        </div>
+        <div class="fact">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7v5l3 2"/></svg>
+          <b>09h às 16h</b>
+        </div>
+        <div class="fact">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s6.5-5.7 6.5-11A6.5 6.5 0 0 0 5.5 10c0 5.3 6.5 11 6.5 11z"/><circle cx="12" cy="10" r="2.3"/></svg>
+          <b>Monza Palace<br>Hotel</b>
+        </div>
+      </div>
+      <div class="cta-row">
+        <a class="btn cta" href="#inscricao">Garantir minha vaga</a>
+        <span class="cta-note">1º lote: R$ 197 no Pix ou até 6x sem juros · vagas limitadas</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="wrap">
+      <div class="about-grid">
+        <div>
+          <span class="eyebrow">O encontro</span>
+          <h2>Para quem quer ampliar o olhar na estética.</h2>
+        </div>
+        <div>
+          <p>Um encontro pensado para profissionais que desejam ampliar seus conhecimentos, aprimorar suas técnicas e enxergar novas possibilidades na estética, da estética básica aos injetáveis.</p>
+          <p>Serão cinco palestras, demonstrações práticas e um dia inteiro de aprendizado com a Dra. Priscilla, em uma experiência preparada em cada detalhe.</p>
+          <p>As vagas são poucas de propósito: para viver o encontro de perto, com troca de experiências e muito conhecimento.</p>
+        </div>
+      </div>
+      <div class="incl">
+        <div><strong>5 palestras</strong><span>Do básico aos injetáveis</span></div>
+        <div><strong>Demonstrações práticas</strong><span>A técnica vista de perto</span></div>
+        <div><strong>Um dia inteiro</strong><span>Das 9h às 16h com a Priscilla</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="program" id="programacao">
+    <div class="wrap">
+      <header>
+        <div>
+          <span class="eyebrow">Programação</span>
+          <h2>Cinco palestras, um dia.</h2>
+        </div>
+        <p>09 de novembro · 09h às 16h</p>
+      </header>
+      <ol class="talks">
+        <li><span class="n">01</span><div><span class="k">Palestra</span><h3>Botox além do básico<small>Mapeamento, dose e naturalidade</small></h3></div></li>
+        <li><span class="n">02</span><div><span class="k">Palestra</span><h3>Perfiloplastia na prática<small>Planejamento, técnica e limites anatômicos</small></h3></div></li>
+        <li><span class="n">03</span><div><span class="k">Palestra</span><h3>Microagulhamento: o que temos de novo com drug delivery?</h3></div></li>
+        <li><span class="n">04</span><div><span class="k">Palestra</span><h3>Ativos certos em intradermoterapia<small>Como aliados do seu resultado</small></h3></div></li>
+        <li><span class="n">05</span><div><span class="k">Palestra</span><h3>Do diagnóstico ao protocolo<small>Integrando tecnologias aos procedimentos estéticos convencionais</small></h3></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="band" id="inscricao">
+    <div class="wrap signup">
+      <div>
+        <span class="eyebrow">Inscrição</span>
+        <h2>Garanta sua vaga na 2ª Jornada PB.</h2>
+        <p class="lead">As vagas são limitadas. Garanta a sua no 1º lote: R$ 197 no Pix ou em até 6x sem juros de R$ 36,67 no cartão.</p>
+        <ol class="steps">
+          <li>Pague no Pix ou no cartão.</li>
+          <li>Envie o comprovante pelo WhatsApp.</li>
+          <li>Receba a confirmação e o link do grupo da Jornada.</li>
+        </ol>
+      </div>
+      <div class="ticket">
+        <div class="lab">1º lote</div>
+        <div class="price"><small>R$</small>197</div>
+        <div class="pay">no Pix</div>
+        <div class="or">ou em até <b>6x sem juros de R$ 36,67</b> no cartão</div>
+
+        <div class="tabs" role="tablist" aria-label="Forma de pagamento">
+          <button class="tab" role="tab" id="tab-pix" aria-selected="true" aria-controls="pane-pix">Pix</button>
+          <button class="tab" role="tab" id="tab-card" aria-selected="false" aria-controls="pane-card">Cartão</button>
+        </div>
+
+        <div class="pane" id="pane-pix" role="tabpanel" aria-labelledby="tab-pix">
+          <p class="hint">Copie o código e cole no app do seu banco, na opção <b>Pix Copia e Cola</b>. O valor de R$ 197 já vem preenchido.</p>
+          <div class="key" id="pix-key">00020101021126720014br.gov.bcb.pix01361e728c05-b129-48e0-b375-5b53caba0cd60210Jornada PB5204000053039865406197.005802BR592343 9 3 P P F C B PEREIR6005NATAL62070503***6304E0D6</div>
+          <button class="btn cta" id="copy-pix" type="button">Copiar código Pix</button>
+          <p class="hint small" id="copy-msg" aria-live="polite">Favorecida: Priscilla Paula Fonseca</p>
+          <figure class="qr"><img src="pix-qr.svg" alt="QR Code Pix de R$ 197"><figcaption>No computador? Escaneie com o celular.</figcaption></figure>
+        </div>
+
+        <div class="pane" id="pane-card" role="tabpanel" aria-labelledby="tab-card" hidden>
+          <p class="hint">Em até 6x sem juros de R$ 36,67 (total R$ 220). O pagamento abre numa nova aba. Depois de pagar, volte aqui para enviar o comprovante.</p>
+          <a class="btn cta" id="link-cartao" href="https://link.infinitepay.io/priscilla-paula-fonseca/VC1DLTYtSQ-DfgjW80OSA-220,00" target="_blank" rel="noopener">Pagar no cartão</a>
+        </div>
+
+        <div class="after" id="after">
+          <strong class="after-t">Já pagou?</strong>
+          Envie o comprovante para confirmar sua vaga. Depois da confirmação, você recebe o link do grupo da Jornada.
+          <a class="btn wa" href="https://wa.me/5584987980008?text=Oi!%20Acabei%20de%20pagar%20minha%20inscri%C3%A7%C3%A3o%20na%202%C2%AA%20Jornada%20PB.%20Segue%20o%20comprovante%3A" target="_blank" rel="noopener">Enviar comprovante no WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap fit">
+    <span class="eyebrow">Para quem é</span>
+    <h2>Veja se a Jornada faz sentido para você.</h2>
+    <div class="fit-grid">
+      <div class="yes">
+        <h3>A Jornada é para você que</h3>
+        <ul>
+          <li>Atua ou quer atuar na área da estética e busca atualização.</li>
+          <li>Quer aprimorar técnicas e enxergar novas possibilidades, do básico aos injetáveis.</li>
+          <li>Aprende melhor vendo a técnica de perto, em demonstrações práticas.</li>
+          <li>Quer conhecer o trabalho da Dra. Priscilla em um dia inteiro de conteúdo.</li>
+        </ul>
+      </div>
+      <div class="no">
+        <h3>Talvez não seja para você que</h3>
+        <ul>
+          <li>Procura um procedimento estético como paciente. O evento é voltado a profissionais.</li>
+          <li>Espera uma formação completa, com prática supervisionada em pacientes, em um único dia.</li>
+          <li>Prefere conteúdo só online, sem estar presente no hotel.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap faq">
+    <span class="eyebrow">Dúvidas</span>
+    <h2>Perguntas comuns</h2>
+    <details>
+      <summary>Quando e onde será a Jornada?</summary>
+      <p>Dia 09 de novembro de 2026, das 09h às 16h, no Monza Palace Hotel. O evento é presencial.</p>
+    </details>
+    <details>
+      <summary>Como faço para me inscrever?</summary>
+      <p>Pelo botão "Garantir minha vaga", que leva direto ao pagamento. Depois, é só enviar o comprovante pelo WhatsApp para a sua vaga ser confirmada.</p>
+    </details>
+    <details>
+      <summary>Quais formas de pagamento?</summary>
+      <p>No 1º lote, R$ 197 no Pix ou em até 6x sem juros de R$ 36,67 no cartão de crédito.</p>
+    </details>
+    <details>
+      <summary>Quantas vagas existem?</summary>
+      <p>Poucas, de propósito. A ideia é um encontro de perto, com troca de experiências. Quando as vagas acabarem, a inscrição é encerrada.</p>
+    </details>
+    <details>
+      <summary>Vai ter parte prática?</summary>
+      <p>Sim. Além das cinco palestras, o dia inclui demonstrações práticas.</p>
+    </details>
+    <div class="more">
+      <span>Ficou com outra dúvida?</span>
+      <a class="btn wa" href="https://wa.me/5584987980008?text=Oi!%20Tenho%20uma%20d%C3%BAvida%20sobre%20a%202%C2%AA%20Jornada%20PB." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="logo" role="img" aria-label="PB"></span>
+    <div class="links">
+      <span>@pb.mentorias</span>
+      <span>WhatsApp (84) 98798-0008</span>
+    </div>
+    <span>Dra. Priscilla Braga</span>
+  </div>
+</footer>
+
+<div class="sticky">
+  <span><b>2ª Jornada PB</b>09/11 · Monza Palace Hotel</span>
+  <a class="btn cta" href="#inscricao">Garantir vaga</a>
+</div>
+
+<script>
+(function(){
+  var tabs=[["tab-pix","pane-pix"],["tab-card","pane-card"]];
+  tabs.forEach(function(t){
+    document.getElementById(t[0]).addEventListener("click",function(){
+      tabs.forEach(function(o){
+        var on=o[0]===t[0];
+        document.getElementById(o[0]).setAttribute("aria-selected",on?"true":"false");
+        document.getElementById(o[1]).hidden=!on;
+      });
+    });
+  });
+  var after=document.getElementById("after");
+  function nudge(){after.classList.remove("flash");void after.offsetWidth;after.classList.add("flash");}
+  document.getElementById("link-cartao").addEventListener("click",function(){setTimeout(nudge,600);});
+  var btn=document.getElementById("copy-pix"),msg=document.getElementById("copy-msg"),key=document.getElementById("pix-key");
+  btn.addEventListener("click",function(){
+    var v=key.textContent.trim();
+    function ok(){btn.textContent="Código copiado";msg.textContent="Agora cole no Pix Copia e Cola do seu banco e envie o comprovante abaixo.";nudge();}
+    function fallback(){var r=document.createRange();r.selectNodeContents(key);var sel=getSelection();sel.removeAllRanges();sel.addRange(r);msg.textContent="Código selecionado. Toque e segure para copiar.";}
+    try{navigator.clipboard.writeText(v).then(ok,fallback);}catch(e){fallback();}
+  });
+})();
+</script>
+</body>
+</html>
